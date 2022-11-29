@@ -1,8 +1,12 @@
 import '../styles/globals.css';
 import '../configureAmplify';
-import Navbar from './api/components/navbar';
+import { useEffect } from 'react';
+import Navbar from './components/navbar';
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    //console.log(pageProps);
+  }, []);
   return (
     <div>
       <Navbar />

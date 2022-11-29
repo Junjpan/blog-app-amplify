@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import '../../../configureAmplify';
+import '../../configureAmplify';
 import { useState, useEffect } from 'react';
 import { Auth, Hub } from 'aws-amplify';
 
